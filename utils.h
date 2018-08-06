@@ -3,6 +3,7 @@
 namespace Utils{
     class Utils{
         public:
+        const static int BOARD_HEIGHT=20,BOARD_WIDTH=20;
         enum Direction{NORTH,SOUTH,EAST,WEST};
         static void showBanner();
         static void drawBoard();
