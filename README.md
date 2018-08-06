@@ -2,11 +2,12 @@
 A simple console game created using C++.
 
 
-[![GitHub license](https://img.shields.io/github/license/Razdeep/Snake-Game.git.svg?style=for-the-badge)](https://github.com/Razdeep/Snake-Game.git)
+[![GitHub license](https://img.shields.io/github/license/Razdeep/Snake-Game.svg?style=for-the-badge)](https://github.com/Razdeep/Snake-Game/blob/master/LICENSE)
 
-[![GitHub issues](https://img.shields.io/github/issues/Razdeep/Snake-Game.git.svg)](https://github.com/Razdeep/Snake-Game.git/issues)
+[![GitHub issues](https://img.shields.io/github/issues/Razdeep/Snake-Game.svg)](https://github.com/Razdeep/Snake-Game/issues)
 
-[![GitHub stars](https://img.shields.io/github/stars/Razdeep/Snake-Game.git.svg?style=plastic)](https://github.com/Razdeep/Snake-Game.git/stargazers)
+
+[![GitHub stars](https://img.shields.io/github/stars/Razdeep/Snake-Game.svg)](https://github.com/Razdeep/Snake-Game/stargazers)
 
 ## Getting Started
 
