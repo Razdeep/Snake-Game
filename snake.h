@@ -9,7 +9,7 @@ class Snake{
         int length;
         Snake():length(0){
             direction=Utils::Utils::NORTH;
-            head.setCoord(0,0);
+            head.setCoord(10,10);
         }
         Coord getHead() const;
         void forward(){
