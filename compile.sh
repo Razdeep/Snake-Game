@@ -1,1 +1,1 @@
-g++ coord.cpp utils.cpp core.cpp main.cpp -o snakegame
+g++ coord.cpp utils.cpp core.cpp snake.cpp main.cpp -o snakegame

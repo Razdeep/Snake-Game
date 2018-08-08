@@ -7,3 +7,7 @@ void Core::Core::play()
     Utils::Utils::drawBoard();
     
 }
+void Core::Core::draw(const Snake& snake)
+{
+
+}

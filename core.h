@@ -1,6 +1,7 @@
 #ifndef __CORE_H
 #define __CORE_H
 #include"utils.h"
+#include"snake.h"
 namespace Core{
     class Core{
         public:
@@ -10,7 +11,7 @@ namespace Core{
         static void play();
         static void getInput();
         static void updateMatrix();
-        
+        static void draw(const Snake&);
 
     };
 };
