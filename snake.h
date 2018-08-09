@@ -12,9 +12,8 @@ class Snake{
             head.setCoord(10,10);
         }
         Coord getHead() const;
-        void forward(){
-            
-        }
+        void forward();
+        void incLength();
         
 };
 #endif
