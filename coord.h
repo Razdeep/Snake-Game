@@ -8,6 +8,7 @@ class Coord{
         // Coord(const Coord& coord);
         Coord getCoord() const;
         void setCoord(const int x,const int y);
+        void setCoord(const Coord&);
         void incX();
         void incY();
         void decX();
