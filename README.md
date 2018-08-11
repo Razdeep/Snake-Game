@@ -24,6 +24,19 @@ git clone https://github.com/Razdeep/Snake-Game.git
 
 * GNU's g++ compiler
  
+## Dependencies
+
+* Gtest by Google
+```
+sudo apt-get install libgtest-dev
+```
+* CMake
+```
+sudo apt-get install cmake
+```
+
+NOTE: Install the above packages after updating the apt repository list, by
+"sudo apt-get update"
 
 ## Authors
 
