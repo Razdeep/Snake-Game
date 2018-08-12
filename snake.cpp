@@ -32,3 +32,7 @@ void Snake::incLength()
 {
     length++;
 }
+void Snake::setDirection(Utils::Utils::Direction direction)
+{
+    this->direction=direction;
+}

@@ -1,0 +1,1 @@
+g++ coord.cpp utils.cpp core.cpp snake.cpp test.cpp -g -o test

@@ -1,4 +1,8 @@
 #include "coord.h"
+Coord Coord::getCoord() const{
+    // Might be issues here
+    return *this;
+}
 void Coord::setCoord(const int x,const int y)
 {
     this->x=x;
@@ -15,11 +19,11 @@ void Coord::incX(){
     x++;
 }
 void Coord::incY(){
-    y++;
+    y--; // Maintaining the coordinate system
 }
 void Coord::decX(){
     x--;
 }
 void Coord::decY(){
-    y--;
+    y++;
 }

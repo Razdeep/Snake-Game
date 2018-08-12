@@ -16,6 +16,6 @@ class Snake{
         Coord getHead() const;
         void forward();
         void incLength();
-        
+        void setDirection(Utils::Utils::Direction);//@TODO
 };
 #endif
