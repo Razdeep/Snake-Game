@@ -1,5 +1,5 @@
-#ifndef __CORE_H
-#define __CORE_H
+#ifndef CORE_H_
+#define CORE_H_
 #include"utils.h"
 #include"snake.h"
 namespace Core{

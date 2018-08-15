@@ -1,5 +1,5 @@
-#ifndef __COORD_H
-#define __COORD_H
+#ifndef COORD_H_
+#define COORD_H_
 class Coord{
         int x,y;
     public:

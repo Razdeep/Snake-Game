@@ -1,5 +1,5 @@
-#ifndef __UTILS_H
-#define __UTILS_H
+#ifndef UTILS_H_
+#define UTILS_H_
 namespace Utils{
     class Utils{
         public:

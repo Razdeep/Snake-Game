@@ -1,7 +1,7 @@
 #include "coord.h"
 #include "utils.h"
-#ifndef __SNAKE_H
-#define __SNAKE_H
+#ifndef SNAKE_H_
+#define SNAKE_H_
 class Snake{
     public:
         static const int MAX_LENGTH=30;
