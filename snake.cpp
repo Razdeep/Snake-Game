@@ -3,6 +3,9 @@
 Coord Snake::getHead() const{
     return head;
 }
+int Snake::getLength() const{
+    return length;
+}
 void Snake::forward()
 {
     // Shift each point from the head
@@ -27,6 +30,10 @@ void Snake::forward()
     else{
         head.decX();
     }
+}
+void Snake::setLength(const int length)
+{
+    this->length=length;
 }
 void Snake::incLength()
 {
