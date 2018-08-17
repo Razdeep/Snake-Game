@@ -5,7 +5,7 @@
 class Snake{
     public:
         static const int MAX_LENGTH=30;
-        enum Utils::Utils::Direction direction;
+        Utils::Utils::Direction direction;
         Coord head;
         Coord body[MAX_LENGTH];
         int length;
