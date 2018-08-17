@@ -8,7 +8,8 @@ void Core::Core::play()
     Snake snake;
     // draw(snake);
     Board board;
-    board.print(snake);
+    board.fillBoardMatrix(snake);
+    board.print();
     snake.setLength(5);
     std::cout<<"Current length"<<snake.getLength()<<std::endl;
 }

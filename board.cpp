@@ -1,18 +1,26 @@
 #include<iostream>
 #include"board.h"
-void Board::print(const Snake& snake)
+void Board::fillBoardMatrix(const Snake& snake)
 {
     for(int i=0;i<BOARD_LENGTH;i++)
     {
         for(int j=0;j<BOARD_WIDTH;j++)
         {
-            if(i==0||i==BOARD_LENGTH-1)
-                std::cout<<"*";
-            else if(j==0||j==BOARD_WIDTH-1)
-                std::cout<<"*";
+            if(i==0||i==BOARD_LENGTH-1||j==0||j==BOARD_WIDTH-1)
+                board_matrix[i][j]='*';
             else if(snake.getHead().getX()==j && snake.getHead().getY()==i)
-                std::cout<<"H";
-            else std::cout<<" ";
+                board_matrix[i][j]='H';
+            else board_matrix[i][j]=' ';
+        }
+    }
+}
+void Board::print()
+{
+    for(int i=0;i<BOARD_LENGTH;i++)
+    {
+        for(int j=0;j<BOARD_WIDTH;j++)
+        {
+            std::cout<<board_matrix[i][j];
         }
         std::cout<<std::endl;
     }
