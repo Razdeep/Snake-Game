@@ -10,6 +10,11 @@ void Board::fillBoardMatrix(const Snake& snake)
         {
             if(snake.getHead().getX()==j && snake.getHead().getY()==i)
                 board_matrix[i][j]='H';
+            for(int k=0;k<snake.getLength();k++)
+            {
+                if(snake.getBodyElement(k).getX()==j && snake.getBodyElement(k).getY()==i)
+                board_matrix[i][j]='o';
+            }
         }
     }
 }

@@ -20,6 +20,7 @@ class Snake{
         }
         Coord getHead() const;
         int getLength() const;
+        Coord getBodyElement(int) const;
         void forward();
         void setLength(const int);
         void incLength();

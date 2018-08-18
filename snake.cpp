@@ -6,6 +6,9 @@ Coord Snake::getHead() const{
 int Snake::getLength() const{
     return length;
 }
+Coord Snake::getBodyElement(int n) const{
+    return body[n];
+}
 void Snake::forward()
 {
     // Shift each point from the head

@@ -8,9 +8,6 @@ namespace Core{
         static void init();
         static void play();
         static void getInput();
-        static void updateMatrix();
-        static void draw(const Snake&);
-
     };
 };
 #endif
