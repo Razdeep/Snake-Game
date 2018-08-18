@@ -9,11 +9,10 @@ class Snake{
         Coord head;
         Coord body[MAX_LENGTH];
         int length;
-        Snake():length(0){
+        Snake():length(3){
             direction=Utils::Utils::NORTH;
             head.setCoord(10,10);
             //testing 
-            length=3;
             body[0].setCoord(10,11);
             body[1].setCoord(10,12);
             body[2].setCoord(10,13);

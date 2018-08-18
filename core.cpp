@@ -2,18 +2,23 @@
 #include <iostream>
 #include "utils.h"
 #include "board.h"
+#include <unistd.h>
 void Core::Core::init()
 {
-    
+
 }
 void Core::Core::play()
 {
     // Utils::Utils::drawBoard();
     Snake snake;
     // draw(snake);
+    // snake.setLength(5);
     Board board;
-    board.fillBoardMatrix(snake);
-    board.print();
-    snake.setLength(5);
-    std::cout<<"Current length"<<snake.getLength()<<std::endl;
+    while(1)
+    {
+        board.fillBoardMatrix(snake);
+        board.print();
+        snake.forward();
+        sleep(1);
+    }
 }
