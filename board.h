@@ -7,6 +7,7 @@ class Board{
     public:
     Board(){}
     void fillBoardMatrix(const Snake& snake);
+    void clearBoard();
     void print();
 };
 #endif
